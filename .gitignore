@@ -1,0 +1,85 @@
+# Windows thumbnail files
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Windows Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*.suo
+*.user
+*.sln.docstates
+suo
+ntuser.dat
+*.suo
+*.user
+*.sln.docstates
+*.userprefs
+*.user
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Byte-compiled files
+*.pyc
+
+# Caches
+*.swp
+*.swm
+*~
+*.bak
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon
+Thumbs.db
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+
+# User-specific Visual Studio Code settings
+.vscode/settings.json
+
+# Windows image file caches
+*.wim
+
+# Windows Installer files
+*.log
+
+# Internet Explorer-generated files
+history.ilk
+ReSharper/
+ajg_log.log
+UserSettings/
+acorn/
+reporter-output/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
