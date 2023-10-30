@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8b3e156caa901d46baaf83562742c05 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f8b3e156caa901d46baaf83562742c05" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f8b3e156caa901d46baaf83562742c05 = L.map(
+                "map_f8b3e156caa901d46baaf83562742c05",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d797ea8e6c8430072c551ac32cff978d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f8b3e156caa901d46baaf83562742c05);
+        
+    
+            var marker_13bd6cfc889c49511779939c2ebc0ff4 = L.marker(
+                [40.73061, -73.935242],
+                {}
+            ).addTo(map_f8b3e156caa901d46baaf83562742c05);
+        
+    
+        var popup_0b721ad31ef437ece67199487805ed83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_610ead00e4a819648faa1d48a8c468e0 = $(`<div id="html_610ead00e4a819648faa1d48a8c468e0" style="width: 100.0%; height: 100.0%;"><b>Hotel A</b><br>A luxury hotel in Manhattan.</div>`)[0];
+                popup_0b721ad31ef437ece67199487805ed83.setContent(html_610ead00e4a819648faa1d48a8c468e0);
+            
+        
+
+        marker_13bd6cfc889c49511779939c2ebc0ff4.bindPopup(popup_0b721ad31ef437ece67199487805ed83)
+        ;
+
+        
+    
+    
+            var marker_0f1eab4832805ed8078fd4a9492d6422 = L.marker(
+                [40.75166, -73.990376],
+                {}
+            ).addTo(map_f8b3e156caa901d46baaf83562742c05);
+        
+    
+        var popup_d43778b3d0e0da0e990f560e3ac3caa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_815fd8a35a93b85bb9fe3ff588229b89 = $(`<div id="html_815fd8a35a93b85bb9fe3ff588229b89" style="width: 100.0%; height: 100.0%;"><b>Hotel B</b><br>Affordable downtown hotel.</div>`)[0];
+                popup_d43778b3d0e0da0e990f560e3ac3caa9.setContent(html_815fd8a35a93b85bb9fe3ff588229b89);
+            
+        
+
+        marker_0f1eab4832805ed8078fd4a9492d6422.bindPopup(popup_d43778b3d0e0da0e990f560e3ac3caa9)
+        ;
+
+        
+    
+    
+            var marker_5dfd31d170b478c1e5e113930e931ee7 = L.marker(
+                [40.764937, -73.988888],
+                {}
+            ).addTo(map_f8b3e156caa901d46baaf83562742c05);
+        
+    
+        var popup_3c8730c99443f31d3e92bceb355c5f31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e78cc0560c0eaad4d8a8da64a673a22c = $(`<div id="html_e78cc0560c0eaad4d8a8da64a673a22c" style="width: 100.0%; height: 100.0%;"><b>Hotel C</b><br>Boutique hotel in Midtown.</div>`)[0];
+                popup_3c8730c99443f31d3e92bceb355c5f31.setContent(html_e78cc0560c0eaad4d8a8da64a673a22c);
+            
+        
+
+        marker_5dfd31d170b478c1e5e113930e931ee7.bindPopup(popup_3c8730c99443f31d3e92bceb355c5f31)
+        ;
+
+        
+    
+    
+            var marker_ea1daaf20c92cce1dccde504e417ac6d = L.marker(
+                [40.711232, -74.005618],
+                {}
+            ).addTo(map_f8b3e156caa901d46baaf83562742c05);
+        
+    
+        var popup_162751550e391a2f5fe87de666058319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2ca518bf49a006ad0c34add817974b9 = $(`<div id="html_c2ca518bf49a006ad0c34add817974b9" style="width: 100.0%; height: 100.0%;"><b>Hotel D</b><br>Historic hotel near Financial District.</div>`)[0];
+                popup_162751550e391a2f5fe87de666058319.setContent(html_c2ca518bf49a006ad0c34add817974b9);
+            
+        
+
+        marker_ea1daaf20c92cce1dccde504e417ac6d.bindPopup(popup_162751550e391a2f5fe87de666058319)
+        ;
+
+        
+    
+</script>
+</html>
